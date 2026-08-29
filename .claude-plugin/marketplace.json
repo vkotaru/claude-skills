@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "vkotaru-skills",
+  "description": "Personal Claude Code skills — architecture patterns and workflows for small web apps",
+  "owner": {
+    "name": "vkotaru",
+    "url": "https://github.com/vkotaru"
+  },
+  "plugins": [
+    {
+      "name": "web-app-patterns",
+      "source": "./plugins/web-app-patterns",
+      "category": "development",
+      "keywords": ["pwa", "offline-first", "dexie", "indexeddb", "sync", "service-worker"]
+    }
+  ]
+}

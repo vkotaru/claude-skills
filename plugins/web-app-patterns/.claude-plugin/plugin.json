@@ -1,0 +1,11 @@
+{
+  "name": "web-app-patterns",
+  "description": "Opinionated, end-to-end architecture recipes for small web apps. Currently: offline-first PWAs — Dexie local DB, a pendingSync mutation queue, a bidirectional sync engine, and the service-worker and mobile baselines that make them hold up.",
+  "version": "0.1.0",
+  "author": {
+    "name": "vkotaru",
+    "url": "https://github.com/vkotaru"
+  },
+  "homepage": "https://github.com/vkotaru/claude-skills",
+  "keywords": ["pwa", "offline-first", "dexie", "indexeddb", "sync", "service-worker", "local-first"]
+}
