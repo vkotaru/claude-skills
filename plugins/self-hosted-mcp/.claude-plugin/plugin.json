@@ -1,0 +1,11 @@
+{
+  "name": "self-hosted-mcp",
+  "description": "Expose a privately hosted app to Claude as a custom remote MCP connector, without handing the internet a route into it. The separate internet-facing service, OAuth 2.1, a read-only tool layer with one query chokepoint, Tailscale Funnel, a least-privilege database role, and the traps that cost real debugging time.",
+  "version": "0.1.0",
+  "author": {
+    "name": "vkotaru",
+    "url": "https://github.com/vkotaru"
+  },
+  "homepage": "https://github.com/vkotaru/claude-skills",
+  "keywords": ["mcp", "connector", "oauth", "tailscale", "funnel", "self-hosted", "remote-mcp", "security"]
+}

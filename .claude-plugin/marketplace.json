@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "vkotaru-skills",
-  "description": "Personal Claude Code skills — architecture patterns and workflows for small web apps",
+  "description": "Personal Claude Code skills \u2014 architecture patterns and workflows for small web apps",
   "owner": {
     "name": "vkotaru",
     "url": "https://github.com/vkotaru"
@@ -11,7 +11,29 @@
       "name": "web-app-patterns",
       "source": "./plugins/web-app-patterns",
       "category": "development",
-      "keywords": ["pwa", "offline-first", "dexie", "indexeddb", "sync", "service-worker"]
+      "keywords": [
+        "pwa",
+        "offline-first",
+        "dexie",
+        "indexeddb",
+        "sync",
+        "service-worker"
+      ]
+    },
+    {
+      "name": "self-hosted-mcp",
+      "source": "./plugins/self-hosted-mcp",
+      "category": "development",
+      "keywords": [
+        "mcp",
+        "connector",
+        "oauth",
+        "tailscale",
+        "funnel",
+        "self-hosted",
+        "remote-mcp",
+        "security"
+      ]
     }
   ]
 }
